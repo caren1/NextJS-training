@@ -27,4 +27,9 @@ Other benefits:
 - lower case for pages, uppercase for components
 - possibility of adding styles in JS
     -> <style jsx>{`.title{color: ${x>3 ? 'red':'blue'}}`}</style>
-- 
+- custom document
+- there are 3 static methods to get the data within pages: 
+getStaticProps - fetching data at build time
+getServerSideProps - fetching on every request
+getStaticPaths - dynamically rendering paths based on the data we are fetching
+
