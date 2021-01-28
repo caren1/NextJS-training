@@ -1,0 +1,27 @@
+What's necessary for nextjs?
+- JS + React basics
+- Creating components
+- Using JSX
+- Passing props
+- Using state
+
+What is NextJS?
+
+Is a React frontend development web framework created by Vercel, that enables functionality as server-side
+rendering and static site generation. It builds on top of React giving additional features.
+
+Server Side Rendering 
+Unlike a traditional React app where the entire application is loaded and renderted on the client, NextJS
+allows the first page to load to be rendered by server, which is great for SEO and performance.
+
+Other benefits:
+- Easy page routing
+- Api Routes
+- Out of the box TypeScript and Sass
+- Static site generation (next export)
+- Easy deployment
+
+
+///////////////////////////////////////
+
+- lower case for pages, uppercase for components
