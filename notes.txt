@@ -25,3 +25,6 @@ Other benefits:
 ///////////////////////////////////////
 
 - lower case for pages, uppercase for components
+- possibility of adding styles in JS
+    -> <style jsx>{`.title{color: ${x>3 ? 'red':'blue'}}`}</style>
+- 
