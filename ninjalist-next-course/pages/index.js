@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      
       <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
@@ -16,7 +16,7 @@ export default function Home() {
         odit.
       </p>
       <Link href='/ninjas'><a> See Ninja Listing</a></Link>
-      <Footer />
+      
     </div>
   );
 }
