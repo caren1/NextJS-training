@@ -42,5 +42,10 @@ getStaticPaths - dynamically rendering paths based on the data we are fetching
 1 -- easiest way to create nextjs app is by using npx create-next-app
 2 -- every page is driven by react component, placed in the 'pages' directory = routes *not for index.js = '/'
 if we have index.js within some directories it will create root path for that file
-
+3 -- components are placed within its own directory and can be re-used wherever we need them
+4 -- Link component allows to do the client side navigation in browser, pages are loaded via JS not new requests
+5 -- by default Next does the code splitting for our application, so JS for the current page is only served from server
+and only when we navigate to other page we will serve the JS for the specific page. 
+EACH PAGE HAS ITS OWN JS AND ITS SERVED ONLY ONE TIME WE VISIT THE PAGE. in build version it looks at links and
+pre-fetches the JS for specific pages
 
