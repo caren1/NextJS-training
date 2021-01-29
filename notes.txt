@@ -40,5 +40,7 @@ getServerSideProps - fetching on every request
 getStaticPaths - dynamically rendering paths based on the data we are fetching
 
 1 -- easiest way to create nextjs app is by using npx create-next-app
+2 -- every page is driven by react component, placed in the 'pages' directory = routes *not for index.js = '/'
+if we have index.js within some directories it will create root path for that file
 
 
