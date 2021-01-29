@@ -9,12 +9,18 @@ What is NextJS?
 
 Is a React frontend development web framework created by Vercel, that enables functionality as server-side
 rendering and static site generation. It builds on top of React giving additional features.
++ Framework for creating pre-rendered React websites
++ Offers us both Server Side Rendering and Static site Generation
+SSR -> When React components are getting rendered into HTML of the webpage after the request comes to the browser
+SSG -> When React components are getting rendered into HTML of the webpage at the build time 
 
 Server Side Rendering 
 Unlike a traditional React app where the entire application is loaded and renderted on the client, NextJS
 allows the first page to load to be rendered by server, which is great for SEO and performance.
 
 Other benefits:
+- Better SEO
+- Pre-rendering improves performance
 - Easy page routing
 - Api Routes
 - Out of the box TypeScript and Sass
@@ -32,4 +38,7 @@ Other benefits:
 getStaticProps - fetching data at build time
 getServerSideProps - fetching on every request
 getStaticPaths - dynamically rendering paths based on the data we are fetching
+
+1 -- easiest way to create nextjs app is by using npx create-next-app
+
 
