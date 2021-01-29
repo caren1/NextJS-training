@@ -49,3 +49,6 @@ and only when we navigate to other page we will serve the JS for the specific pa
 EACH PAGE HAS ITS OWN JS AND ITS SERVED ONLY ONE TIME WE VISIT THE PAGE. in build version it looks at links and
 pre-fetches the JS for specific pages
 6 -- Layout component ; common practice for wrapping around our pages -> needs to be wrapped around _app.js component
+7 -- multiple ways of adding css: global css, styled jsx, css modules (built in support for)
+global styles are being imported in _app.js ; for page specific styles we use css modules allowing to be scoped for specific
+components ; no classname conflicts ; IN CSS MODULES WE NEED CLASS SELECTORS!
