@@ -52,3 +52,4 @@ pre-fetches the JS for specific pages
 7 -- multiple ways of adding css: global css, styled jsx, css modules (built in support for)
 global styles are being imported in _app.js ; for page specific styles we use css modules allowing to be scoped for specific
 components ; no classname conflicts ; IN CSS MODULES WE NEED CLASS SELECTORS!
+8 -- does not generate /404 route, but will be used when not known url is accessed
